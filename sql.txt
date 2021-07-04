@@ -1,0 +1,9 @@
+create table employees(
+ID INT not null auto_increment primary_key,
+name VARCHAR (50) not null,
+phone NUMERIC (8,0) not null unique
+);
+
+INSERT employees (name,phone) VALUES ('Daniel Noriega',55973682);
+INSERT employees (name,phone) VALUES ('Melany Salazar,12345678);
+INSERT employees (name,phone) VALUES ('Cindy Ardon',41900027);
